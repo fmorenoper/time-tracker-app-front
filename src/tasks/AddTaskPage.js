@@ -81,13 +81,13 @@ export const AddTaskPage = () => {
                 </div>
                 <input
                     type="date"
-                    placeholder="Enter task name here"
+                    placeholder="Date"
                     className="space-before full-width"
                     value={userDate}
                     onChange={e => setUserDate(e.target.value)} />
                 <input
                     type="text"
-                    placeholder="Enter task name here"
+                    placeholder="Enter tags here (not implemented)"
                     className="space-before full-width"
                     value={tags}
                     onChange={e => setTags(e.target.value)} />
